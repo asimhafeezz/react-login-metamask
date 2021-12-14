@@ -2,8 +2,8 @@ import { useState } from "react"
 import { ethers } from "ethers"
 export const useLogin = () => {
 	const [isLogin, setIsLogin] = useState(false)
-	const [account, setAccount] = useState("")
 	const [error, setError] = useState("")
+	const [account, setAccount] = useState("")
 	const [loading, setLoading] = useState(false)
 	const [balance, setBalance] = useState(0)
 
